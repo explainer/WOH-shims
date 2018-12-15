@@ -1,0 +1,51 @@
+.form-table .entry-control {
+  width: 10px;
+}
+table.payment_log-log-table { 
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+.payment_log-log-table td {
+  text-align: left;
+}
+.form-table .payment_log-log-table th {
+  padding: 20px 0px 20px 10px;
+}
+.entry-control {
+  opacity: 0.3;
+}
+.entry-control:hover {
+  opacity: 1;
+}
+.entry-control .dashicons-no {
+  color: crimson;
+  cursor: pointer;
+}
+.entry-control .dashicons-edit {
+  color: dodgerblue;
+  cursor: pointer;
+}
+.dashicons.dashicons-no:hover,
+.entry-control .dashicons-edit:hover {
+  outline: 1px solid #bfbfbf;
+}
+
+tr.log_table_editable_row {
+  outline: 1px solid #e3dede;
+}
+.log_table_editable_row td {
+  background-color: #ececec;
+  border-bottom: none;
+}
+/** LOG TABLE **/
+.pdbmps_payment_log-log-table td:not(:first-child) {
+  padding-left: 0;
+}
+.pdbmps_payment_log-log-table td, 
+.pdbmps_payment_log-log-table th {
+  border-bottom: 1px dotted #bcbcbc;
+}
+.table-form-element {
+    display: block;
+    overflow: auto;
+}

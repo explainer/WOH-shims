@@ -1,0 +1,693 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Participants Database Member Payments\n"
+"POT-Creation-Date: 2018-02-28 17:06-1000\n"
+"PO-Revision-Date: 2018-02-28 17:05-1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pdb-member_payments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: pdbmps/Plugin.php:119
+msgid "Member Payments"
+msgstr ""
+
+#: pdbmps/Plugin.php:450
+msgid "Log Entry"
+msgstr ""
+
+#: pdbmps/Plugin.php:451
+msgid "Delete this log entry?"
+msgstr ""
+
+#: pdbmps/Plugin.php:452
+msgid "Confirm"
+msgstr ""
+
+#: pdbmps/Plugin.php:473
+msgid "Date"
+msgstr ""
+
+#: pdbmps/Plugin.php:474
+msgid "Transaction Status"
+msgstr ""
+
+#: pdbmps/Plugin.php:475 pdbmps/payment_log/log_field.php:239
+msgid "Transaction ID"
+msgstr ""
+
+#: pdbmps/Plugin.php:476
+msgid "Amount"
+msgstr ""
+
+#: pdbmps/Plugin.php:477 pdbmps/Plugin.php:880
+#: pdbmps/fields/last_payment_type.php:33
+msgid "Payment Type"
+msgstr ""
+
+#: pdbmps/Plugin.php:486
+msgid "Log Table"
+msgstr ""
+
+#: pdbmps/Plugin.php:625
+msgid "Member Payments: IPN Received"
+msgstr ""
+
+#: pdbmps/Plugin.php:694
+msgid "PayPal Settings"
+msgstr ""
+
+#: pdbmps/Plugin.php:698
+msgid "Member Payment Settings"
+msgstr ""
+
+#: pdbmps/Plugin.php:702
+msgid "Signup Payment Settings"
+msgstr ""
+
+#: pdbmps/Plugin.php:706
+msgid "Payment Status Settings"
+msgstr ""
+
+#: pdbmps/Plugin.php:710
+msgid "Offline Payment Settings"
+msgstr ""
+
+#: pdbmps/Plugin.php:716
+msgid "Advanced Settings"
+msgstr ""
+
+#: pdbmps/Plugin.php:728
+msgid "PayPal Payment Button Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:731
+msgid "text shown next to the PayPal payment button"
+msgstr ""
+
+#: pdbmps/Plugin.php:739
+msgid "PayPal Identity Token"
+msgstr ""
+
+#: pdbmps/Plugin.php:742
+msgid ""
+"this is provided by PayPal when you set up PDT in your account. Leave this "
+"blank if you are not using PDT."
+msgstr ""
+
+#: pdbmps/Plugin.php:751
+msgid "PayPal Button HTML"
+msgstr ""
+
+#: pdbmps/Plugin.php:754
+msgid "this is obtained from your account at PayPal"
+msgstr ""
+
+#: pdbmps/Plugin.php:762
+msgid "Payment Type Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:765 pdbmps/Plugin.php:893
+msgid "this is the visible name of this payment type"
+msgstr ""
+
+#: pdbmps/Plugin.php:774
+msgid "Payment Form Match Fields"
+msgstr ""
+
+#: pdbmps/Plugin.php:776
+msgid ""
+"comma-separated list of field names. These fields are checked to find a "
+"member's record. The information these fields provide must be enough to "
+"identify only one record."
+msgstr ""
+
+#: pdbmps/Plugin.php:786
+msgid "Record Not Found Message"
+msgstr ""
+
+#: pdbmps/Plugin.php:790
+msgid ""
+"message to show if the member's record can't be found with the info supplied."
+msgstr ""
+
+#: pdbmps/Plugin.php:798
+msgid "Payment Thanks Message"
+msgstr ""
+
+#: pdbmps/Plugin.php:802
+msgid ""
+"message shown on screen when the user returns from making a payment using "
+"the member payment form. Placeholder tags can be used."
+msgstr ""
+
+#: pdbmps/Plugin.php:803
+msgid "Thanks, [first_name], for making a payment."
+msgstr ""
+
+#: pdbmps/Plugin.php:810 pdbmps/Plugin.php:854
+msgid "Cancel Return Message"
+msgstr ""
+
+#: pdbmps/Plugin.php:814 pdbmps/Plugin.php:858
+msgid ""
+"message shown on screen when the user returns without successfully making a "
+"payment. Placeholder tags can be used."
+msgstr ""
+
+#: pdbmps/Plugin.php:815
+msgid "You must make a payment to renew your membership."
+msgstr ""
+
+#: pdbmps/Plugin.php:821 pdbmps/Plugin.php:865
+msgid "Enable Offline Payments"
+msgstr ""
+
+#: pdbmps/Plugin.php:824 pdbmps/Plugin.php:868
+msgid ""
+"when checked, the user can select an offline payment method, such as a "
+"mailing a check or giving a credit card by phone."
+msgstr ""
+
+#: pdbmps/Plugin.php:832
+msgid "Approve on Payment"
+msgstr ""
+
+#: pdbmps/Plugin.php:835
+msgid ""
+"when checked, the user's record will be marked \"approved\" when an online "
+"payment is made."
+msgstr ""
+
+#: pdbmps/Plugin.php:842
+msgid "Signup Payment Thanks Message"
+msgstr ""
+
+#: pdbmps/Plugin.php:846
+msgid ""
+"thanks message shown after making a PayPal payment from the signup form. May "
+"include value tags from the signup submission. PayPal PDT must be working to "
+"show payment values."
+msgstr ""
+
+#: pdbmps/Plugin.php:847
+msgid "Thank you, [first_name], for your payment of $[mc_gross]."
+msgstr ""
+
+#: pdbmps/Plugin.php:859
+msgid "You must make a payment to register."
+msgstr ""
+
+#: pdbmps/Plugin.php:878
+msgid "Payment Type Selector Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:881
+msgid "this labels the radio control that selects the payment type"
+msgstr ""
+
+#: pdbmps/Plugin.php:890
+msgid "Offline Payment Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:892
+msgid "Pay by Check"
+msgstr ""
+
+#: pdbmps/Plugin.php:902
+msgid "Offline Submit Button Text"
+msgstr ""
+
+#: pdbmps/Plugin.php:904
+msgctxt "submit button text"
+msgid "Pay Offline"
+msgstr ""
+
+#: pdbmps/Plugin.php:905
+msgid "text on the offline payment submit button"
+msgstr ""
+
+#: pdbmps/Plugin.php:913
+msgid "Offline Payment Help Message"
+msgstr ""
+
+#: pdbmps/Plugin.php:917
+msgid "message shown by the offline payment selector in the signup form."
+msgstr ""
+
+#: pdbmps/Plugin.php:918
+msgid "Mail in your check or money order."
+msgstr ""
+
+#: pdbmps/Plugin.php:926
+msgid "Offline Payment Thanks Message"
+msgstr ""
+
+#: pdbmps/Plugin.php:930
+msgid ""
+"message shown on screen when the user chooses the offline payment option. "
+"May include value tags from the signup submission."
+msgstr ""
+
+#: pdbmps/Plugin.php:931
+msgid "Please mail your check."
+msgstr ""
+
+#: pdbmps/Plugin.php:938
+msgid "\"Pending\" Status Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:942
+msgid ""
+"This is the number of days after an offline payment promise is submitted "
+"that the \"pending\" status will expire. The label is the visible label used "
+"for this status"
+msgstr ""
+
+#: pdbmps/Plugin.php:961
+msgid "Enable Member Payment Status"
+msgstr ""
+
+#: pdbmps/Plugin.php:964
+msgid ""
+"when checked, the user's current payment status will be kept in the \"Member "
+"Payment Status\" field."
+msgstr ""
+
+#: pdbmps/Plugin.php:971
+msgid "Payment Due Mode"
+msgstr ""
+
+#: pdbmps/Plugin.php:974
+msgid "Fixed Period"
+msgstr ""
+
+#: pdbmps/Plugin.php:975
+msgid "Fixed Dates"
+msgstr ""
+
+#: pdbmps/Plugin.php:978
+msgid "determines how the payment due date is calculated."
+msgstr ""
+
+#: pdbmps/Plugin.php:987
+msgid "Renewal Dates"
+msgstr ""
+
+#: pdbmps/Plugin.php:991
+msgid ""
+"list of payment due dates. Each date must be on it's own line, do not "
+"include the year because these dates will apply to any year."
+msgstr ""
+
+#: pdbmps/Plugin.php:1002
+msgid "Renewal Period"
+msgstr ""
+
+#: pdbmps/Plugin.php:1006
+msgid "the renewal period for the payment."
+msgstr ""
+
+#: pdbmps/Plugin.php:1014
+msgid "Late Payment Setting"
+msgstr ""
+
+#: pdbmps/Plugin.php:1017
+msgid "Payment goes to last due date"
+msgstr ""
+
+#: pdbmps/Plugin.php:1018
+msgid "Payment goes to last payment date"
+msgstr ""
+
+#: pdbmps/Plugin.php:1021
+msgid "determines what date a late payment is applied to"
+msgstr ""
+
+#: pdbmps/Plugin.php:1029
+msgid "\"Paid\" Status Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:1033
+msgid "status label to use when the user has paid."
+msgstr ""
+
+#: pdbmps/Plugin.php:1041
+msgid "\"Payment Due\" Status Label"
+msgstr ""
+
+#: pdbmps/Plugin.php:1045
+msgid "status label to use after the payment is due."
+msgstr ""
+
+#: pdbmps/Plugin.php:1053
+msgid "\"Payable\" Status"
+msgstr ""
+
+#: pdbmps/Plugin.php:1057
+msgid ""
+"days before due and status label to use before the payment is due. "
+"IMPORTANT: the days before and the days after settings here must total less "
+"than the number of days between due dates."
+msgstr ""
+
+#: pdbmps/Plugin.php:1065
+msgid "\"Past Due\" Status"
+msgstr ""
+
+#: pdbmps/Plugin.php:1069
+msgid "days after due and status label to use after the payment is past due."
+msgstr ""
+
+#: pdbmps/Plugin.php:1076
+msgid "Initial Payment Status"
+msgstr ""
+
+#: pdbmps/Plugin.php:1080
+msgid ""
+"records with no payment history are assumed to have this payment status. If "
+"left blank, records with no payment history will not trigger payment status "
+"change events (such as to send an email) until after a payment is made."
+msgstr ""
+
+#: pdbmps/Plugin.php:1094
+msgid "Payment Log Edit Lock"
+msgstr ""
+
+#: pdbmps/Plugin.php:1097
+msgid "if checked, the payment log cannot have entries added manually."
+msgstr ""
+
+#: pdbmps/Plugin.php:1105
+msgid "Use PayPal Sandbox"
+msgstr ""
+
+#: pdbmps/Plugin.php:1108
+#, php-format
+msgid ""
+"when checked, all payments will use %sPayPal Sandbox%s. NO REAL TRANSACTIONS "
+"WILL BE PROCESSED. You must also use both a token and button HTML from your "
+"sandbox account in the settings below."
+msgstr ""
+
+#: pdbmps/Plugin.php:1115
+msgid "PayPal Sandbox Identity Token"
+msgstr ""
+
+#: pdbmps/Plugin.php:1118
+msgid ""
+"this is provided by PayPal Sandbox when you set up PDT in your account. "
+"Leave this blank if you are not using PDT."
+msgstr ""
+
+#: pdbmps/Plugin.php:1127
+msgid "PayPal Sandbox Button HTML"
+msgstr ""
+
+#: pdbmps/Plugin.php:1130
+msgid "this is obtained from your account at PayPal Sandbox"
+msgstr ""
+
+#: pdbmps/Plugin.php:1138
+msgid "Testing Date"
+msgstr ""
+
+#: pdbmps/Plugin.php:1142
+msgid ""
+"this date will be used as the current date when testing. Leave blank to use "
+"the normal current date. This setting is only active if WP_DEBUG is enabled."
+msgstr ""
+
+#: pdbmps/Plugin.php:1182
+#, php-format
+msgctxt "the plugin title"
+msgid "%s Setup"
+msgstr ""
+
+#: pdbmps/Plugin.php:1184
+msgid "Provides a PayPal member payment button three different ways."
+msgstr ""
+
+#: pdbmps/Plugin.php:1186
+#, php-format
+msgid ""
+"%sSignup Payment:%s the user registers and makes a PayPal payment in one "
+"form submission."
+msgstr ""
+
+#: pdbmps/Plugin.php:1187
+#, php-format
+msgid ""
+"%sMember Payment:%s the user enters identifying information and makes a "
+"payment, credited to their account."
+msgstr ""
+
+#: pdbmps/Plugin.php:1188
+#, php-format
+msgid ""
+"%sProfile Payment:%s The user, after using their private link to edit their "
+"profile, can make a payment on that page."
+msgstr ""
+
+#: pdbmps/Plugin.php:1190
+msgid ""
+"The plugin works by placing a PayPal payment button in a Participants "
+"Database form. When the user clicks on the PayPal payment button, the "
+"contents of the form is processed into Participants database and the user is "
+"sent to PayPal to make the payment. When they return, the payment details "
+"are logged via PayPal Payment Data Transfer. This data can also be sent by "
+"PayPal asynchronously using Instant Payment Notification."
+msgstr ""
+
+#: pdbmps/Plugin.php:1191
+#, php-format
+msgid ""
+"This plugin requires the PayPal account be configured to send %sInstant "
+"Payment Notifications%s or process a %sPayment Data Transfer.%s Instructions "
+"for setting that up can be found by clicking on these links."
+msgstr ""
+
+#: pdbmps/Plugin.php:1217
+msgid ""
+"\"Member Payments\" are payments made by people who already have a record in "
+"the database. When they fill out the payment form, the \"match fields\" are "
+"checked to locate the member's record. If a single record is found, the "
+"payment is logged in that record. If a matching record cannot be found, the "
+"\"Record Not Found\" message is shown and the form is not submitted."
+msgstr ""
+
+#: pdbmps/Plugin.php:1218
+msgid ""
+"The member payment form is shown by using the [pdb_member_payment] shortcode."
+msgstr ""
+
+#: pdbmps/Plugin.php:1223
+msgid ""
+"Use these settings to configure your dues schedule or payment period for "
+"recurring payments. Also configures the payment (or dues) status field, "
+"which holds the current user's payment status."
+msgstr ""
+
+#: pdbmps/Plugin.php:1225
+msgid ""
+"<strong>Fixed Period:</strong> The due date is calculated based on the last "
+"payment date."
+msgstr ""
+
+#: pdbmps/Plugin.php:1226
+msgid ""
+"<strong>Fixed Date:</strong> The due date is based on a set of fixed dates "
+"in the year."
+msgstr ""
+
+#: pdbmps/Plugin.php:1228
+msgid ""
+"See the <a href=\"https://xnau.com/product_support/member-payments/\" target="
+"\"_blank\">documentation</a> for additional information."
+msgstr ""
+
+#: pdbmps/Plugin.php:1229
+msgid ""
+"Sending email reminders when a member's payment status changes requires the "
+"use of the <a href=\"https://xnau.com/product/email-expansion/\" target="
+"\"_blank\">Email Expansion Kit</a> plugin."
+msgstr ""
+
+#: pdbmps/Plugin.php:1270
+msgid ""
+"Signup form payments are usually used in cases where the person needs to pay "
+"to become a member, but can also be used when an organization is accepting "
+"donations and wants to build a database of new donors."
+msgstr ""
+
+#: pdbmps/Plugin.php:1271
+msgid ""
+"Offline payments are payment that are not made with the help of your "
+"website, such as mailed-in or in-person check or cash payments. When such a "
+"payment is made, the transaction would be manually logged into the person's "
+"record."
+msgstr ""
+
+#: pdbmps/Plugin.php:1275
+msgid ""
+"Offline payments are payments such as mailed checks, in-person payments or "
+"over-the-phone credit card payments."
+msgstr ""
+
+#: pdbmps/Plugin.php:1276
+msgid ""
+"When an offline payment is submitted, it becomes a dated \"promise to pay\" "
+"and the user's payment status will change to \"pending\" until a payment is "
+"logged or the expiration date is passed."
+msgstr ""
+
+#: pdbmps/Plugin.php:1295
+msgid "1 week"
+msgstr ""
+
+#: pdbmps/Plugin.php:1296 pdbmps/Plugin.php:1297 pdbmps/Plugin.php:1298
+#: pdbmps/Plugin.php:1299
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pdbmps/Plugin.php:1300
+msgid "1 year"
+msgstr ""
+
+#: pdbmps/Plugin.php:1325
+msgid "days or less before due date is labeled:"
+msgstr ""
+
+#: pdbmps/Plugin.php:1333
+msgid "days or more after due date is labeled:"
+msgstr ""
+
+#: pdbmps/Plugin.php:1337
+msgid "days while awaiting payment will be labeled:"
+msgstr ""
+
+#: pdbmps/Plugin.php:1497
+msgid "none"
+msgstr ""
+
+#: pdbmps/Plugin.php:1518
+#, php-format
+msgid ""
+"You must define the \"PayPal Sandbox Button HTML\" in the %sParticipants "
+"Database Member Payments%s advanced settings to test using PayPal Sandbox"
+msgstr ""
+
+#: pdbmps/Plugin.php:1521
+#, php-format
+msgid ""
+"You must define the \"PayPal Button HTML\" in the %sParticipants Database "
+"Member Payments%s settings to take PayPal payments."
+msgstr ""
+
+#: pdbmps/fields/last_payment_type.php:130
+msgid "None"
+msgstr ""
+
+#: pdbmps/fields/log_table.php:409
+msgid "you must save the record before adding a log entry"
+msgstr ""
+
+#: pdbmps/fields/log_table.php:506
+msgid "New Entry"
+msgstr ""
+
+#: pdbmps/fields/pending_payment_field.php:32
+msgid "Offline Payment"
+msgstr ""
+
+#: pdbmps/payment_log/log_field.php:350
+msgctxt "title for the payment log"
+msgid "Payment Log"
+msgstr ""
+
+#: pdbmps/payment_status/controller.php:160
+#, php-format
+msgid "Member Payments: Status Change to: %s"
+msgstr ""
+
+#: pdbmps/payment_status/last_payment_date.php:34
+msgid "Last Payment Date"
+msgstr ""
+
+#: pdbmps/payment_status/next_due_date.php:34
+msgid "Next Payment Due Date"
+msgstr ""
+
+#: pdbmps/payment_status/payment_status_field.php:33
+msgid "Member Payment Status"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:255
+msgid "Member Payments: Signup Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:256
+msgid "Member Payments: Member Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:257
+msgid "Member Payments: Profile Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:258
+msgid "Member Payments: Offline Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:259
+msgid "Member Payments: Member Offline Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:260
+msgid "Member Payments: Signup Offline Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:261
+msgid "Member Payments: Profile Offline Payment Return"
+msgstr ""
+
+#: pdbmps/shortcodes/controller.php:262
+msgid "Member Payments: Cancel Payment Return"
+msgstr ""
+
+#: templates/pdb-member-payment-default.php:83
+#: templates/pdb-signup-member-payment-bootstrap.php:77
+msgid "Forget your private link? Click here to have it emailed to you."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Participants Database Member Payments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xnau.com/product/member-payments"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds a PayPal member payment button to forms; keeps a record of payments; "
+"keeps track of member payments status"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Roland Barker, xnau webdesign"
+msgstr ""
